@@ -6,15 +6,6 @@ A lightweight, dynamic **Bash script** designed to stress-test, validate, and me
 
 ---
 
-## 🚀 Features
-
-* **Dynamic Range:** Automatically adjusts the pool of random numbers based on the requested stack size (e.g., Stack 100 uses range -200 to 200; Stack 500 uses -1000 to 1000).
-* **Safety Limits:** Includes a hard limit (Max 1000 numbers) to prevent system freezes or memory overflows during testing.
-* **Statistical Average:** Runs **50 iterations** per execution and calculates the precise average move count.
-* **Zero Dependencies:** Runs natively in Bash (uses `seq`, `shuf`, `tr`, `wc`). No Python, Ruby, or external libraries required.
-
----
-
 ## 🛠️ Installation
 
 1.  **Clone this repository** or download the `bench.sh` file.
