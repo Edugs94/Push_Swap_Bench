@@ -35,7 +35,7 @@ Ensure your **./push_swap** executable is compiled and ready. Then, run the scri
 
 ### Standard Test (100 Numbers)
 
-<pre><code>./bench.sh 100</code></pre>
+<pre><code>sh bench.sh 100</code></pre>
 ### Stress Test (500 Numbers)
 
-<pre><code>./bench.sh 500</code></pre>
+<pre><code>sh bench.sh 500</code></pre>
