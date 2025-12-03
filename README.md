@@ -11,9 +11,6 @@ A lightweight, dynamic **Bash script** designed to stress-test, validate, and me
 1.  **Clone this repository** or download the `bench.sh` file.
 2.  Move the `bench.sh` script into the **root directory** of your Push Swap project (where your `push_swap` executable is located).
 
-```bash
-cp /path/to/bench.sh /path/to/your_push_swap_project/
-```
 Grant execution permissions:
 ```bash
 chmod +x bench.sh
